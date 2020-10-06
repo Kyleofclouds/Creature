@@ -1,0 +1,116 @@
+.torso{
+    width:550px;
+    height:250px;
+    border-radius:300px 300px 0px 0px;
+    background-color: green;
+  }
+  
+  .head{
+    width:75px;
+    height:75px;
+    background-color:blue;
+    position:relative;
+    bottom:275px;
+    left:525px;
+    border-radius:10px 30px 35px 10px;
+  }
+  
+  .eye{
+    width:15px;
+    height:15px;
+    border-radius: 7px;
+    background-color:white;
+    position: relative;
+    left:40px;
+    top:20px;
+  }
+  
+  .pupil{
+    width:5px;
+    height:5px;
+    border-radius: 2px;
+    background-color:black;
+    position: relative;
+    bottom:15px;
+    left:7px;
+  }
+  
+  .leg1{
+    height:75px;
+    width:7px;
+    background-color:black;
+    position:relative;
+    top:240px;
+    transform:rotate(45deg);
+  }
+  
+  .leg2{
+    width:7px;
+    height:75px;
+    background-color:black;
+    position:relative;
+    top:165px;
+    left:60px;
+    transform:rotate(135deg);
+  }
+  
+  .leg3{
+      width:7px;
+      height:75px;
+      background-color:black;
+      position:relative;
+      top:90px;
+      left:225px;
+      transform:rotate(45deg);
+  }
+
+  .leg4{
+      width:7px;
+      height:75px;
+      background-color:black;
+      position:relative;
+      top:16px;
+      left:275px;
+      transform:rotate(135deg);
+  }
+
+  .leg5{
+      width:7px;
+      height:75px;
+      background-color:black;
+      position:relative;
+      bottom:60px;
+      left:515px;
+      transform:rotate(45deg);
+  }
+  
+  .leg6{
+      width:7px;
+      height:75px;
+      background-color:black;
+      position:relative;
+      bottom:135px;
+      left:565px;
+      transform:rotate(135deg);
+  }
+
+  #eyebrow{
+      width:5px;
+      height:20px;
+      background-color:black;
+      position:relative;
+      bottom:20px;
+      left:5px;
+      transform:rotate(120deg);
+  }
+
+  #mouth{
+      width:25px;
+      height:8px;
+      background-color:red;
+      border-radius:15px 0px;
+      position:relative;
+      top:20px;
+      left:20px;
+      transform:rotate(30deg);
+  }
